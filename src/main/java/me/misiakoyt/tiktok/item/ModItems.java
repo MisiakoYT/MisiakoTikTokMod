@@ -4,6 +4,7 @@ import me.misiakoyt.tiktok.TikTok;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -17,6 +18,8 @@ public class ModItems {
     private static void addItemsToIngredItemGroup(FabricItemGroupEntries entries) {
         entries.add(ASBESTOS_POWDER);
     }
+    public static final Item GLASS_HELMET = registerItem("glass_helmet",
+            new ArmorItem(ModArmorMaterial.GLASS,ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
 
 
     private static Item registerItem(String name, Item item) {

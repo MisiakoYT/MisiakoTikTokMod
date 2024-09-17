@@ -1,7 +1,20 @@
 {
   "variants": {
-    "": {
-      "model": "tiktok:block/asbestos_block"
-    }
+    "": [
+      {
+        "model": "tiktok:block/asbestos_block"
+      },
+      {
+        "model": "tiktok:block/asbestos_block_mirrored"
+      },
+      {
+        "model": "tiktok:block/asbestos_block",
+        "y": 180
+      },
+      {
+        "model": "tiktok:block/asbestos_block_mirrored",
+        "y": 180
+      }
+    ]
   }
 }

@@ -17,6 +17,9 @@ public class ModBlocks {
     public static final Block ASBESTOS_BLOCK = registerBlock("asbestos_block",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
 
+    public static final Block RAW_ASBESTOS_BLOCK = registerBlock("raw_asbestos_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(TikTok.MOD_ID, name), block);

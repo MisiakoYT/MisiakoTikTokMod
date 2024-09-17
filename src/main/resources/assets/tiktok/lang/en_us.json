@@ -1,6 +1,8 @@
 {
   "item.tiktok.asbestos_powder": "Asbestos Powder",
   "block.tiktok.asbestos_block": "Asbestos",
+  "block.tiktok.raw_asbestos_block": "Raw Asbestos",
+  "item.tiktok.glass_helmet": "Glass Helmet",
 
   "itemgroup.asbestos": "Asbestos Group"
 }

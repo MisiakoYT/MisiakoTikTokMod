@@ -21,6 +21,9 @@ public class ModItemGroups {
                         entries.add(ModItems.ASBESTOS_POWDER);
 
                         entries.add(ModBlocks.ASBESTOS_BLOCK);
+                        entries.add(ModBlocks.RAW_ASBESTOS_BLOCK);
+
+                        entries.add(ModItems.GLASS_HELMET);
 
 
                     }).build());
