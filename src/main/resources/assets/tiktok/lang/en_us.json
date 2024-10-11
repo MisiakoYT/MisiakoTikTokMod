@@ -3,6 +3,13 @@
   "block.tiktok.asbestos_block": "Asbestos",
   "block.tiktok.raw_asbestos_block": "Raw Asbestos",
   "item.tiktok.glass_helmet": "Glass Helmet",
+  "item.tiktok.eternit_powder": "Eternit Powder",
+  "block.tiktok.eternit_block": "Eternit Block",
+  "block.tiktok.eternit_tile": "Eternit Tile",
+  "block.tiktok.concrete_mixer": "Concrete Mixer",
+  "item.tiktok.lighting": "Lighting",
+
+  "entity.minecraft.villager.developer_master": "Developer Master",
 
   "itemgroup.asbestos": "Asbestos Group"
 }

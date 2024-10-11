@@ -19,11 +19,17 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.asbestos"))
                     .icon(() -> new ItemStack(ModItems.ASBESTOS_POWDER)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ASBESTOS_POWDER);
+                        entries.add(ModItems.ETERNIT_POWDER);
 
                         entries.add(ModBlocks.ASBESTOS_BLOCK);
                         entries.add(ModBlocks.RAW_ASBESTOS_BLOCK);
+                        entries.add(ModBlocks.ETERNIT_TILE);
+                        entries.add(ModBlocks.ETERNIT_BLOCK);
+                        entries.add(ModBlocks.CONCRETE_MIXER);
 
                         entries.add(ModItems.GLASS_HELMET);
+
+                        entries.add(ModItems.LIGHTING);
 
 
                     }).build());

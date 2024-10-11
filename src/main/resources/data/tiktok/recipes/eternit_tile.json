@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "tiktok:eternit_powder"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "item": "tiktok:eternit_tile"
+  }
+}

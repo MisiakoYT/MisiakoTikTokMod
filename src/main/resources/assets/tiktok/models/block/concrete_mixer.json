@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "tiktok:block/concrete_mixer_block_side",
+    "east": "tiktok:block/concrete_mixer_block_side",
+    "north": "tiktok:block/concrete_mixer_block_side",
+    "particle": "tiktok:block/concrete_mixer_block_side",
+    "south": "tiktok:block/concrete_mixer_block_side",
+    "up": "tiktok:block/concrete_mixer_block_top",
+    "west": "tiktok:block/concrete_mixer_block_side"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "tiktok:block/eternit_tile" },
+    "facing=south": { "model": "tiktok:block/eternit_tile", "y": 180 },
+    "facing=east":  { "model": "tiktok:block/eternit_tile", "y": 90 },
+    "facing=west":  { "model": "tiktok:block/eternit_tile", "y": 270 },
+    "facing=up":    { "model": "tiktok:block/eternit_tile", "x": -90 },
+    "facing=down":  { "model": "tiktok:block/eternit_tile", "x": 90 }
+  }
+}

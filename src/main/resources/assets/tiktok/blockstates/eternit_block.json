@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tiktok:block/eternit_block"
+      },
+      {
+        "model": "tiktok:block/eternit_block_mirrored"
+      },
+      {
+        "model": "tiktok:block/eternit_block",
+        "y": 180
+      },
+      {
+        "model": "tiktok:block/eternit_block_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

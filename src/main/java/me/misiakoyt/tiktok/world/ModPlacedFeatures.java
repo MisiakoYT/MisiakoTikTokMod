@@ -23,8 +23,8 @@ public class ModPlacedFeatures {
         var configuredFeaturedRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, RAW_ASBESTOS_KEY, configuredFeaturedRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.RAW_ASBESTOS_KEY),
-                ModOrePlacement.modifiersWithCount(64,
-                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(24,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(40))));
 
     }
 
