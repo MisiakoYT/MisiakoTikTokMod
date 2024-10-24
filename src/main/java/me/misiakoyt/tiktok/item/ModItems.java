@@ -23,7 +23,7 @@ public class ModItems {
     public static final Item GLASS_HELMET = registerItem("glass_helmet",
             new ArmorItem(ModArmorMaterial.GLASS,ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
 
-    public static final Item LIGHTING = registerItem("lighting", new LightingItem(new FabricItemSettings()));
+    public static final Item LIGHTING = registerItem("lighting", new LightingItem(new FabricItemSettings().fireproof().maxCount(16)));
 
 
     private static Item registerItem(String name, Item item) {
