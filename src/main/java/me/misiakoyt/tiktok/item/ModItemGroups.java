@@ -30,6 +30,7 @@ public class ModItemGroups {
                         entries.add(ModItems.GLASS_HELMET);
 
                         entries.add(ModItems.LIGHTING);
+                        entries.add(ModItems.LIGHTING_ARROW);
 
 
                     }).build());

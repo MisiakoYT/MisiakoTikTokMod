@@ -2,6 +2,7 @@ package me.misiakoyt.tiktok.entity;
 
 import me.misiakoyt.tiktok.TikTok;
 import me.misiakoyt.tiktok.entity.custom.LightingProjectileEntity;
+import me.misiakoyt.tiktok.entity.projectile.LightingArrowEntity;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityType;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.EntityDimensions;

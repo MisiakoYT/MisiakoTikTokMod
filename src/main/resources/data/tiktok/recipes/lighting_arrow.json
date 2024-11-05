@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ALA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:arrow"
+    },
+    "L": {
+      "item": "tiktok:lighting"
+    }
+  },
+  "result": {
+    "item": "tiktok:lighting_arrow",
+    "count": 8
+  }
+}

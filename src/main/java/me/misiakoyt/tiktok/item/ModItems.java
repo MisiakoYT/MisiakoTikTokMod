@@ -1,11 +1,13 @@
 package me.misiakoyt.tiktok.item;
 
 import me.misiakoyt.tiktok.TikTok;
+import me.misiakoyt.tiktok.item.custom.LightingArrow;
 import me.misiakoyt.tiktok.item.custom.LightingItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArrowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -24,6 +26,8 @@ public class ModItems {
             new ArmorItem(ModArmorMaterial.GLASS,ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
 
     public static final Item LIGHTING = registerItem("lighting", new LightingItem(new FabricItemSettings().fireproof().maxCount(16)));
+
+    public static final Item LIGHTING_ARROW = registerItem("lighting_arrow", new LightingArrow(new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {
